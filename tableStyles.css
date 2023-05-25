@@ -1,0 +1,67 @@
+
+
+
+
+.gradeTable
+{
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 2px;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: inline-table;
+ 
+}
+.gradeTable table{
+  background-color: rgba(255, 255, 255, 0.5);   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+  opacity: .9; /* Adjust the opacity to control transparency */
+  color: #ffffff;
+  border-radius: 20px;
+  border-collapse: separate;
+  border-spacing: 4px;
+  border: 3px solid rgb(247, 248, 249);
+  box-shadow: 1px 6px 12px 1px rgba(7, 148, 255, 0.373);
+  z-index: 1;
+
+  
+ 
+}
+
+.gradeTable td {
+  color: rgb(255, 255, 255);
+  width: 75px;
+  padding: 5px;
+  text-align: center;
+border-radius: 20px;
+  box-shadow: 2px 2px 1px rgb(16, 1, 1);
+}
+
+.gradeTable tr:not(:first-child) td {
+  border-left: none;
+  
+}
+tr:nth-child(2){
+  background-color: rgb(6, 153, 6);
+   
+}tr:nth-child(3){
+  background-color: #9ad04e;
+ 
+}tr:nth-child(4){
+  background-color: #d7de0b;
+ 
+}tr:nth-child(5){
+  background-color: #f2a55e
+ 
+}tr:nth-child(6){
+  background-color: #de732b
+  
+}tr:nth-child(7){
+  background-color: #eb4509;;
+
+}tr:nth-child(8){
+  background-color: #ff002b;;
+
+}
+
+ 

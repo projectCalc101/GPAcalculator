@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+   background: linear-gradient(30deg,#1f0227, #06162c );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  
